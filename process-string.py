@@ -25,8 +25,8 @@ print(result_1)
 input_2 = input("Enter a range of letters (e.g., a-z): ")
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-
-start, end = input_2.split('-')
+start, end = alphabet.split('-')
+user_range = input("Enter a range of letters (e.g., a-z): ")
 
 result_2 = '' .join(chr(i) for i in range(ord(start), ord(end) + 1))
 
